@@ -127,6 +127,25 @@ footer {
     padding-top: 2.5vh;
     font-size: 3rem;
 }
+form {
+    display: flex;
+    align-items: center;
+  }
+  label, input {
+    margin-right: 10px;
+  }
+  .signup-btn {
+    display: inline-block;
+    background-color: rgb(193, 190, 190);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .signup-btn:hover {
+    background-color: #e68a00;
+  }
 
 /* mobile media query */
 @media (max-width: 428px) {
