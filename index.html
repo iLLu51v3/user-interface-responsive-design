@@ -27,9 +27,10 @@
             	</nav>
 			</div>
 			<div class="s-m-links">
-				<i class="fa-brands fa-facebook"></i>
-				<i class="fa-brands fa-twitter"></i>
-				<i class="fa-brands fa-instagram"></i>
+				<div class="1F"><i class="fa-brands fa-facebook"></i></div>
+				<div class="1T"><i class="fa-brands fa-twitter"></i></div>
+				<div class="1I"><i class="fa-brands fa-instagram"></i></div>
+				
 			</div>
 		</header>
 
@@ -37,30 +38,31 @@
 		<section class="gallery">
 			<div>
 				<h2>OUR FOOD</h2>
-				<div class="about">
-					<img src="img/food-avocadotoast.jpg" alt="photo of toast with avacado, tomato, and onion ">
-					<img src="img/food-burger.jpg" alt="photo of a burger with side dish and drink">
-					<img src="img/food-poutine.jpg" alt="photo of poutine">
-					<img src="img/food-ribs.jpg" alt="photo of rib meat">
-					<img src="img/food-sandwich.jpg" alt="photo of chicken sandwich">
-					<img src="img/food-sausage.jpg" alt="photo of sausage in a bun">
-					<img src="img/food-steak.jpg" alt="photo of steak">
-					<img src="img/food-tacos.jpg" alt="photo of street tacos">
-					<img src="img/food-wings.jpg" alt="photo of chicken wings">
+				<div id="about">
+					<img src="img/food-avocadotoast.jpg" alt="photo of toast with avacado, tomato, and onion "/>
+					<img src="img/food-burger.jpg" alt="photo of a burger with side dish and drink"/>
+					<img src="img/food-poutine.jpg" alt="photo of poutine"/>
+					<img src="img/food-ribs.jpg" alt="photo of rib meat"/>
+					<img src="img/food-sandwich.jpg" alt="photo of chicken sandwich"/>
+					<img src="img/food-sausage.jpg" alt="photo of sausage in a bun"/>
+					<img src="img/food-steak.jpg" alt="photo of steak"/>
+					<img src="img/food-tacos.jpg" alt="photo of street tacos"/>
+					<img src="img/food-wings.jpg" alt="photo of chicken wings"/>
 				</div>	
 			</div>
 		</section>
 		<!-- spacer -->
 		<div class="spacer"></div>
+		<div class="spacer"></div>
+
+		<!-- <div class="spacer"></div> -->
 		<!-- about section -->
 		<section class="about">
 			<div class="about-container">
 				<h2>ABOUT US</h2>
 
 				<div id="cooks" class="pic">
-					<!-- <img src="img/staff-cooks.jpg" alt="Photo of three cooks"> -->
 				</div>
-
 				<div class="text">
 					<h3>Good Food, Great People</h3>
 					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
@@ -83,7 +85,7 @@
 
 		<!-- contact section -->
 		<!-- <section class="contact"> -->
-		<section id="contact">
+		<section class="contact" id="contact">
 			<div class="contact-container">
 				<h2>CONTACT US</h2>
 
@@ -126,22 +128,26 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			<form>
-                <label for="email"></label>
-                <input type="email" id="email-2" placeholder="Email Address" required>
-                <button><a href="signup" class="signup-btn">Sign Up</a></button>
-            </form>
+				
 			<!-- nav -->
 			<nav>
+				<p>Join our mailing list!</p>
 				<a href="menu.html">Menu</a>
                 <a href="#reservations">Reservations</a>
                 <a href="#specials">Special Offers</a>
                 <a href="#contact">Contact</a>
 			</nav>
+			<div class="sign">
+				<form>
+					<label for="email"></label>
+					<input type="email" id="email-2" placeholder="Email Address" required>
+					<button><a href="signup" class="signup-btn">Sign Up</a></button>
+				</form>
+			</div>
 			<!-- copyright -->
-			<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
-			
+			<div class="copyright">
+				<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+			</div>
 		</footer>
 	</div>
 </body>

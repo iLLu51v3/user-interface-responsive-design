@@ -19,6 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+    border-color: solid#e68a00;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -94,12 +95,30 @@ header {
 }
 h1 a{
     color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 4, 17, .8);
 }
 .s-m-links{
-    font-size: 36px;
+    font-size: 24px;
     display: flex;
-    align-content: center;
+    justify-content: center;
+    gap: 4%;
+    background-color: rgb(0, 4, 17, .8);
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 4, 17, .8);
+}
+nav a{
+    color: white;
+    font-size:1.5rem;
+}
+
 
 /* spacers */
 .spacer {
@@ -120,6 +139,9 @@ h1 a{
     text-align: center;
     background-color: rgb(0, 4, 17);
 }
+.about img{
+
+}
 
 /* about us section */
 .about {
@@ -130,6 +152,10 @@ h1 a{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+}
+#about img{
+    width: 25%;
+    padding: 1%;
 }
 
 .about-container {
@@ -143,8 +169,16 @@ h1 a{
 
 .about h2 {
     width: 100%;
+    /* padding-top: 7%; */
+    margin: auto;
 }
-
+.about h3{
+    font-size: 3rem;
+    padding-bottom:  1%;
+}
+.about p{
+    font-size: 1.5rem;
+}
 .about-container .text {
     width: 50%;
 }
@@ -167,6 +201,8 @@ h1 a{
 
 .contact h2 {
     padding-top: 5vh;
+    display: flex;
+    justify-content: center;
 }
 
 .contact h3 {
@@ -195,6 +231,9 @@ h1 a{
 .contacts {
     width: 25%;
 }
+.contacts #phone, #email{
+    color:white;
+}
 
 /* footer section */
 footer {
@@ -202,25 +241,53 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+
 }
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav p{
+    font-size: 24px;
+    padding-right: 10%
+}
+
 form {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
   label, input {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .signup-btn {
-    display: inline-block;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
     background-color: rgb(193, 190, 190);
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
     font-weight: bold;
   }
   .signup-btn:hover {
     background-color: #e68a00;
+  }
+
+.sign {
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+    padding-left: 7%;
+    
+}
+
+.copyright p{
+    display: flex;
+    justify-content: right;
+    font-size: small;
+    background-color: rgb(0, 4, 17);
+   
   }
 
 /* mobile media query */
