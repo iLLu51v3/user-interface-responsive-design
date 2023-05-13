@@ -16,29 +16,31 @@
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+			<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>	
         <!-- nav -->
             	<nav>
-                	<a href="menu.html">Menu</a>
-                	<a href="#reservations">Reservations</a>
-               		<a href="#specials">Special Offers</a>
-                	<a href="#contact">Contact</a>
-            	</nav>
+					<div>
+                		<a href="menu.html">Menu</a>
+                		<a href="#">Reservations</a>
+               			<a href="#">Special Offers</a>
+                		<a href="#">Contact</a>
+					</div>
+				</nav>
+					<div class="s-m-links">
+						<i href="#" class="fa-brands fa-facebook"></i>
+						<i href="#" class="fa-brands fa-twitter"></i>
+						<i href="#" class="fa-brands fa-instagram"></i>	
+					</div>
+            	
 			</div>
-			<div class="s-m-links">
-				<div class="1F"><i class="fa-brands fa-facebook"></i></div>
-				<div class="1T"><i class="fa-brands fa-twitter"></i></div>
-				<div class="1I"><i class="fa-brands fa-instagram"></i></div>
-				
-			</div>
+			
 		</header>
 
 		<!-- gallery section -->
 		<section class="gallery">
 			<div>
 				<h2>OUR FOOD</h2>
-				<div id="about">
+				
 					<img src="img/food-avocadotoast.jpg" alt="photo of toast with avacado, tomato, and onion "/>
 					<img src="img/food-burger.jpg" alt="photo of a burger with side dish and drink"/>
 					<img src="img/food-poutine.jpg" alt="photo of poutine"/>
@@ -48,14 +50,13 @@
 					<img src="img/food-steak.jpg" alt="photo of steak"/>
 					<img src="img/food-tacos.jpg" alt="photo of street tacos"/>
 					<img src="img/food-wings.jpg" alt="photo of chicken wings"/>
-				</div>	
+					
 			</div>
 		</section>
 		<!-- spacer -->
 		<div class="spacer"></div>
-		<div class="spacer"></div>
-
 		<!-- <div class="spacer"></div> -->
+
 		<!-- about section -->
 		<section class="about">
 			<div class="about-container">
@@ -128,26 +129,22 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-				
+			<div>
+				<h4>Join our mailing list!</h4>
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="Email Address" required>
+					<button><a href="signup" class="signup-btn">Sign Up</a></button>
+			</div>
 			<!-- nav -->
 			<nav>
-				<p>Join our mailing list!</p>
 				<a href="menu.html">Menu</a>
-                <a href="#reservations">Reservations</a>
-                <a href="#specials">Special Offers</a>
-                <a href="#contact">Contact</a>
+                <a href="#">Reservations</a>
+                <a href="#">Special Offers</a>
+                <a href="#">Contact</a>
 			</nav>
-			<div class="sign">
-				<form>
-					<label for="email"></label>
-					<input type="email" id="email-2" placeholder="Email Address" required>
-					<button><a href="signup" class="signup-btn">Sign Up</a></button>
-				</form>
-			</div>
+			
 			<!-- copyright -->
-			<div class="copyright">
-				<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
-			</div>
+				<p class="copyright">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
 		</footer>
 	</div>
 </body>

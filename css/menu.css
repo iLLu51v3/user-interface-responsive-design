@@ -66,24 +66,26 @@ h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 7.5rem;
-}
-
-h2 {
-    font-size: 6rem;
-}
-
-h3 {
-    font-size: 5rem;
-}
-
-h4 {
+h1 a{
     font-size: 4rem;
 }
 
-p, a {
+h2 {
+    font-size: 4rem;
+    padding: 5%;
+}
+
+h3 {
     font-size: 3rem;
+    padding: 1%;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p, a {
+    font-size: 1.5rem;
 }
 
 /* header section */
@@ -136,20 +138,43 @@ nav a{
 
 .menu {
     width: 100%;
-    height: 100vh;
+    height:100vh;
     background-image: url('../img/staff-bartender.jpg');
     background-color: rgb(0, 4, 17);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu-item{
+    display: flex;
     flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: space-between;
+}
+.split{
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
+}
+.split h4{
+    display: flex;
+    flex-direction: row;
+}
+.menu h2{
+    display: flex;
+    justify-content: center;
+
+    
 }
 .Drinks{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: left;
 }
 .Appetizers{
     display: flex;
