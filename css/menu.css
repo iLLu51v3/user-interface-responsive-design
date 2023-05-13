@@ -97,23 +97,29 @@ header {
 }
 h1 a{
     color: white;
-}
-.s-m-links{
-    font-size: 36px;
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
+    background-color: rgb(0, 4, 17, .8);
 }
+.s-m-links{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    background-color: rgb(0, 4, 17, .8);
+}
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    background-color: rgb(0, 4, 17, .8);
 }
 nav a{
-    color: white
+    color: white;
+    font-size:1.5rem;
 }
-
 /* spacer */
 .spacer {
     width: 100%;
@@ -130,12 +136,25 @@ nav a{
 
 .menu {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-image: url('../img/staff-bartender.jpg');
     background-color: rgb(0, 4, 17);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Drinks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Appetizers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 /* footer section */
@@ -144,25 +163,53 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+
 }
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav p{
+    font-size: 24px;
+    padding-right: 10%
+}
+
 form {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
   label, input {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .signup-btn {
-    display: inline-block;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
     background-color: rgb(193, 190, 190);
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
     font-weight: bold;
   }
   .signup-btn:hover {
     background-color: #e68a00;
+  }
+
+.sign {
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+    padding-left: 7%;
+    
+}
+
+.copyright p{
+    display: flex;
+    justify-content: right;
+    font-size: small;
+    background-color: rgb(0, 4, 17);
+   
   }
 
 /* mobile media query */
